@@ -1,0 +1,22 @@
+{
+    "name": "pebble_example",
+    "targetType": "library",
+    "description": "An Example Pebble Project Written in D",
+    "authors": ["w0rp"],
+    "homepage": "https://github.com/w0rp/dpebble_example",
+    "license": "BSD 2-clause",
+    "copyright": "Copyright © 2015, w0rp",
+    "dflags": [
+        "-I", "/home/w0rp/git/personal/stm32f42_discovery_demo/source/runtime"
+    ],
+    "dependencies": {
+        "dpebble": {
+            "version": "==0.2.2",
+            "path": "../dpebble"
+        },
+        "pebble-druntime": {
+            "version": "==0.2.2",
+            "path": "../pebble-druntime"
+        }
+    },
+}
