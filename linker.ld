@@ -2,7 +2,7 @@ ENTRY(main)
 
 MEMORY
 {
-  APP (rwx) : ORIGIN = 0, LENGTH = 24K
+  APP (rwx) : ORIGIN = 0, LENGTH = 65536
 }
 
 SECTIONS
